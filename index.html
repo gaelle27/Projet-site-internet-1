@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> artecoenergie</title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+
+    <div >
+      <img src="./images/logo-web-transparent.png" class="logo">
+    </div>
+    <div class= "menutoggle" onclick="toggleMenu();"></div>
+    <ul class="navbar">
+      <li><a href="#accueil" onclick="toggleMenu();">ACCUEIL</a></li>
+      <li><a href="#apropos" onclick="toggleMenu();">QUI SOMMES-NOUS ?</a></li>
+      <li><a href="#nosservices" onclick="toggleMenu();">NOS SERVICES </a></li>
+      <li><a href="#contact" onclick="toggleMenu();" >NOUS CONTACTER</a></li>
+      <li><a href="#partenaire" onclick="toggleMenu();" >PARTENAIRES</a></li>
+       <li><a href="./devis.html" >DEVIS</a></li>
+      <a href="./realisations.html" class="btn_reservation" onclick="toggleMenu();" >Nos realisations  </a>
+    </ul>
+    <div class="meta">
+        <h2>0364236716  </h2>
+    </div>
+  
+  </header>
+ <main id="accueil">
+    <div class="diapo">
+      <div class="elements">
+        <div class="element active">
+          <img src="./images/pompe_a_chaleur_air_eau.jpg" alt="image 1">
+         <!--  <div class="caption">
+            <h2>image 1</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Corrupti, <odit class=""></odit> </p>
+          </div> -->
+        </div>
+         <div class="element active">
+          <img src="./images/climhorlog.jpg" alt="image 2">
+         <!--  <div class="caption">
+            <h2>image 2</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Corrupti, <odit class=""></odit> </p>
+          </div>
+ -->        </div>
+         <div class="element active">
+          <img src="./images/fond.jpg" alt="image 3">
+          <!-- <div class="caption">
+            <h2>image 3</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Corrupti, <odit class=""></odit> </p>
+          </div> -->
+        </div>  
+      </div>
+        <i id="nav-gauche" class="fa fa-chevron-left" ></i>
+        <i id="nav-droite" class="fa fa-chevron-right"></i>
+    </div>
+</main>
+<script src="js/script.js"></script>
+
+  <section class="apropos" id="apropos">
+    <div class="row">
+      <div class="col50">
+        <h2 class="titre-texte"> <span>Q</span>UI SOMMES-NOUS ? </h2>
+        <p>ART ECO ENERGIE est une SAS créée en 2020 et specialisée dans l'installation, maintenance et dépannage de climatisation reversible, pompe à chaleur air-eau et plomberie dans le tertiaire et résidentiel.
+         <br> ART ECO ENERGIE est un nouvel acteur dans le secteur de l'energie renouvelable ayant pour but de faire économiser le client sur ses factures d'électricité  et de le fidéliser.
+         <br> Nous disposons de plus de 15 années d'expérience.
+         <br>La qualité est notre priorité, le bon fonctionnement notre garantie. 
+         </p>
+         
+      </div>
+      <div class="col50">
+        <div class="img">
+          <img src="./images/fondapropos1.png" alt="image">
+        </div>
+      </div>
+    </div> 
+  </section>
+  <section class="nosservices" id="nosservices">
+    <div class="titre">
+      <h2 class="titre-texte">
+        <span>N</span>os services
+      </h2>
+      <p> <b>INSTALLATION, MAINTENANCE, DEPANNAGE </b></p>
+    </div>
+    <div class="contenu">
+      <div class="box">
+        <div class="imbox">
+          <img src="./images/pompe_a_chaleur_air_air.jpg" alt="">
+        </div>
+        <div class="text">
+          <h3>Climatisation </h3>
+           <a href="./climatisation.html" class="btn1"> Lire</a>
+        </div>
+      </div>
+      <div class="box">
+        <div class="imbox">
+          <img src="./images/chauffage.jpg" alt="">
+        </div>
+        <div class="text">
+            <h3>Chauffage </h3>
+                <a href="./informations.html" class="btn1"> Lire</a>
+        </div>
+      </div>
+      <div class="box">
+        <div class="imbox">
+          <img src="./images/plomberie.jpg" alt="">
+        </div>
+        <div class="text">
+          <h3>Plomberie</h3>
+           <a href="./plomberie.html" class="btn1"> Lire</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  
+  <section class="actualite" id="actualite">
+    <div class="titre blanc">
+      <h2 class="titre-texte">
+        <span>A</span>ctualités
+      </h2>    </div>
+    <div class="contenu">
+      <div class="box">
+        <div class="imbox">
+          <img src="./images/cee.jpg" alt="">
+        </div>
+        <div class="text">
+          <p>Les certificats d’économies d’énergie (CEE) sont un dispositif mis en place par l’État français en 2005. Le premier objectif consistait à réguler la consommation énergétique du pays, puis à inciter les particuliers à réaliser des travaux de rénovation à moindres coûts. Aujourd’hui encore, les CEE, peuvent vous faire économiser jusqu’à 5000€!</p>
+
+        </div>
+      </div>
+      <div class="box">
+        <div class="imbox">
+           <h2> PRESENTATION ART ECO ENERGIE </h2> 
+          <video width="320" height="240" controls>
+     <source src="./video/art eco energie.mp4" type=video/mp4>
+    </video>
+        </div>
+      </div>
+      <div class="box">
+        <div class="imbox">
+          <img src="./images/flyers.png" alt="">
+        </div>
+        
+      </div>
+    </div>
+    
+  </section>
+  <section class="contact" id="contact">
+    <div class="titre noir">
+      <h2 class="titre-texte"><span>L</span>AISSEZ NOUS UN MESSAGE </h2>
+      <p> </p>
+    </div>
+    <div  class="contact-form">
+      <h3>Envoyer un message</h3>
+      <h3 class="alert"> votre message a été envoyé </h3>
+
+      <div class="input-boite">
+        <form action=""  id="contactForm">
+          <p>
+            <label for="nom">votre nom </label>
+            <input type="texte" id="name" name="lastName">
+          </p>
+           <p>
+            <label for="email">votre email </label>
+            <input type="email" id="email" name="email" required>
+          </p>
+           
+           <p>
+            <label for="memo" >Tapez votre message</label>
+            <textarea id="message" required></textarea>
+          </p>
+          <p>
+            <button class="button" type="submit">Envoyer</button>
+          </p>
+        </form>
+        
+      </div>
+    </div>
+  </section >
+   <section class="partenaires" id="partenaire">
+    <div class="titre noir">
+      <h2 class="titre-texte"><span>P</span>ARTENAIRES </h2>
+    </div>
+    <p>- Grâce à notre partenariat avec différents organismes, nous avons la possibilité de vous faire bénéficier des aides de l'état selon votre éligibilité. 
+    <br>- Grâce à notre souplesse de paiement, nous vous offrons la possibilité de payer en plusieurs tranches et/ou de benéficier d'un financement avec un repport de paiement à 6 mois après l'installation. </p>
+    <img src="./images/maprimerenov.webp" width="100" >
+         <img src="./images/domofinance.png" width="150" >
+         <img src="./images/cee.jpg"  width="150" >
+         <img src="./images/Électricité_de_France.svg.png"width="150" >
+         <img src="./images/franfinance.jpg"width="150" >
+          <img src="./images/qualipac.jpg"width="150" >
+          <img src="./images/totalenergie.webp"width="150" >
+         <img src="./images/Logo_Effy.jpg"width="150" >
+         <img src="./images/ecoptz.jpg"width="100" >
+    
+  </section >
+  <footer >
+    <script type="text/javascript">
+
+      window.addEventListener('scroll',function(){
+        const header =document.querySelector('header');
+        header.classList.toggle("sticky", window.scrollY > 0);
+      });
+  
+      function toggleMenu(){
+        const menutoggle = document.querySelector('.menutoggle');
+        const navbar = document.querySelector('.navbar');
+        menutoggle.classList.toggle('active');
+        navbar.classList.toggle('active');
+      }
+  
+  </script>
+
+    <div class="copyright">
+         <p> <b> ART ECO ENERGIE</b> <br>Telephone: +33 364236716 </br> Adresse: 1 avenue Sadi Carnot – 60800 – CREPY-EN-VALOIS
+<br> Email: contact@artecoenergie.fr </br> SIREN: 888597572 </p>
+<p><b>NOS HORAIRES</b> <br>DU LUNDI AU VENDREDI DE 9H À 17H</br> </p>
+      
+      <p>Copyright 2022 <b> by</b> Magadjou syntia <a href="#"> ART ECO ENERGIE &nbsp; </a> tous droits réservés</p>
+    </div>
+  </footer>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js " ></script>
+  <script src="./js/mail.js"></script>
+  
+</body>
+
+</html> 
